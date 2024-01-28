@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Live Server Example</title>
+</head>
+
+<body>
+
+  <div id="demo4"></div>
+  <div id="demo5"></div>
+
+  <script>
+    // Corrected array declaration
+    var fruits4 = ["banana", "orange", "apple", "mango"];
+
+    // Display initial array
+    document.getElementById("demo4").innerHTML = fruits4;
+
+    // Use splice to add "Lemon" and "kiwi" at index 2
+    fruits4.splice(2, 0, "Lemon", "kiwi");
+
+    // Display modified array
+    document.getElementById("demo5").innerHTML = fruits4;
+  </script>
+
+</body>
+
+</html>
